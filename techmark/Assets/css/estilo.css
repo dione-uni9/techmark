@@ -1,0 +1,366 @@
+/********@autor Dione Souza Lima ********/
+
+/*******Layout*******/
+html, body, #home{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+body{
+    background: url(../images/mercado.jpg), linear-gradient(50deg,#090979,#00d4ff);
+    background-attachment: fixed; /*** Fundo Fixo***/
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+/*****BARRA DE NAVEGAÇÃO*****/
+nav.navbar-black{
+   background: black;
+   padding: 20px 0px;
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #007FFF;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.5);
+}
+
+.divisor{
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+
+/*******CAPA********/
+.capa{
+    text-align: center;
+}
+
+#lupa{
+    float:left;
+    margin:3px 3px 3px -85px;
+    cursor:pointer;
+    font-size: 22px;
+    
+ }
+
+
+.btn-custom{
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius:500px;
+    text-transform: uppercase;
+    transition: background 0,4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+
+.btn-roxo{
+    background: #007FFF;
+}
+
+.btn-roxo:hover{
+    background: #318CE7;
+    color: white;
+}
+
+.btn-branco{
+    border: 2px solid white;
+}
+
+.btn-branco:hover{
+    background-color: white;
+    color: black;
+}
+
+.btn-outline-success:hover{
+    background-color: #007FFF;
+    color:aliceblue;
+    border-color: #007FFF;
+}
+
+.btn-outline-success{
+    color:aliceblue;
+    border-color: aliceblue;
+}
+
+.btn-outline-primary{
+    color:aliceblue;
+    border-color: aliceblue;
+}
+
+.btn-outline-primary:hover{
+    background-color: aliceblue;
+    border-color: aliceblue;
+    transition: background 0,4s, color 0.4s;
+    color: black;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    width: 5%;
+}
+/***** CONTEUDO PRODUTOS **********/
+
+
+/**CONTEUDO DOS SERVIÇOS*****/  
+.caixa{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#servicos{
+    background: white;
+}
+
+#recursos{
+    color: white;
+}
+
+#servicos h2, h3{
+    color: #007FFF;
+}
+
+
+#recursos h2{
+    color: 007FFF;
+}
+
+
+#recursos h3{
+    color: #9bf0e1;
+}
+
+
+.image{
+    padding: 10px 0;
+}
+
+.rotacionar{
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+
+/*******Carrinho de compras**************/ 
+.container-carrinho{
+    margin: auto;
+    margin-top: 170px;
+    display: flex;
+    width: 90%;
+    height: 600px;
+    background: #F0F8FF;
+    border-radius: 5px;
+}
+
+
+
+footer{
+    margin-bottom: 0px;
+}
+/*******Conteudos dos Produtos**************/  
+
+.caixa{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#produtos{
+    background: #d3d3d3;
+}
+
+#recursos{
+    color: white;
+}
+
+#servicos h2, h3{
+    color: #007FFF;
+}
+
+
+#recursos h2{
+    color: 007FFF;
+}
+
+
+#recursos h3{
+    color: #9bf0e1;
+}
+
+
+.image{
+    padding: 10px 0;
+}
+
+.rotacionar{
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+
+
+footer{
+    background: black;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+footer h4{
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a{
+    color: white;
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover{
+    color: #007FFF;
+    text-decoration: none;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    float: right;
+    margin: 0 5px;
+}
+/******Tipografia******/
+h1{
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: white;
+}
+
+h2{
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .btn-custom{
+        margin: 10px 15px;
+        font-size: 1em;
+    }
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    h1{
+        font-size: 3em;
+    }
+    .btn-custom{
+        margin: 10px 15px;
+        font-size: 1em;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    h1{
+        font-size: 4em;
+        
+    }
+    
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    h1{
+        font-size: 5em;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    h1{
+        font-size: 6em;
+    }
+}
+
+.input-llabel {
+    color: lightblue;
+}
+
+.abaixo {
+    padding-top: 150px;
+}
+
+/****FOOTER*****/
+.footer{
+    background: black;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+/*Sidebar*/
+
+.sidenav {
+	height: 100%;
+	width: 160px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: auto;
+    margin-bottom: 8px;
+	padding-top: 20px;
+    padding-top:100px;
+  }
+  
+  .sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 15px;
+	color: #818181;
+	display: block;
+  }
+  
+  .sidenav a:hover {
+	color: #f1f1f1;
+  }
+  
+  .main {
+	margin-left: 160px; /* Same as the width of the sidenav */
+	font-size: 28px; /* Increased text to enable scrolling */
+	padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+  }
+
+
+
+
+  

@@ -1,0 +1,6 @@
+Olá, segue abaixo algumas informações essenciais para o funcionamento no ambiente de produção.
+Esse arquivo deve ser importado dentro do phpmyadmin.
+Ao importar esse arquivo aparecerá o banco TechMark e dentro a tabela de cadastro clientes.
+Dentro desse banco deverá ficar as outras tabelas de produtos,funcionários etc
+By;
+DIONE LIMA
